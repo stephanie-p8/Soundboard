@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+<<<<<<< Sampler
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
@@ -41,6 +42,17 @@ const App = () => {
         
       </Tabs.Navigator>
     </NavigationContainer>
+=======
+
+
+export default function App() {
+  
+  return (
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
+>>>>>>> main
   );
 }
 
@@ -52,5 +64,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+<<<<<<< Sampler
 
 export default App;
+=======
+>>>>>>> main
